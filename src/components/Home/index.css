@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.home-link-container-sm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-img {
+  width: 100%;
+  max-width: 450px;
+  height: 400px;
+}
+.home-link-container-lg {
+  display: none;
+}
+.home-sm-img {
+  width: 300px;
+  height: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-lg-img {
+    width: 800px;
+    height: 500px;
+  }
+  .home-link-container-lg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-link-container-sm {
+    display: none;
+  }
+}

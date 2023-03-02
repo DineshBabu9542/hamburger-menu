@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.about-link-container-sm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-sm-img {
+  width: 300px;
+  height: 350px;
+}
+
+.about-link-container-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-link-container-lg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-lg-img {
+    width: 800px;
+    height: 500px;
+  }
+
+  .about-link-container-sm {
+    display: none;
+  }
+}
